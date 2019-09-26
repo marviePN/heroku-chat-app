@@ -1,0 +1,29 @@
+{
+  "name": "heroku-chat-app",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marviePN/heroku-chat-app.git"
+  },
+  "keywords": [
+    "heroku",
+    "node"
+  ],
+  "author": "Marvie Cauyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marviePN/heroku-chat-app/issues"
+  },
+  "homepage": "https://github.com/marviePN/heroku-chat-app#readme",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
