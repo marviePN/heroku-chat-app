@@ -2,8 +2,8 @@
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
-var io = require('socket.io')();
-var port = process.env.PORT || 3008;
+var io = require('socket.io')(http);
+var port = process.env.PORT || 3009;
 var path = require('path');
 var clients = [];
 var add = 1;
